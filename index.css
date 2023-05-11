@@ -14,3 +14,28 @@ p{
     font-size: 30px;
     text-align: center;
 }
+
+.box {
+    width: 500px;
+    height: 450px;
+    background-color: #00ffff;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    opacity: 0;
+}
+p {
+    color: #fff;
+}
+
+button {
+    padding: 15px;
+}
